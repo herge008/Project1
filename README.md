@@ -1,7 +1,9 @@
 # Movie Analysis
 
 Team Name: Blank
+
 Kind of Data: Movie Data
+
 Kinds of Questions:
   * What is the best month for the best movies?
     * Determined by movie score and opening box office sales.
