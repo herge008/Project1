@@ -1,4 +1,4 @@
-<table width="100%"><tr><td align="center">Movie Analysis</td></tr></table>
+# Movie Analysis
 
 Team Name: Blank
 
