@@ -1,4 +1,4 @@
-# Movie Analysis
+<table width="100%"><tr><td align="center">Movie Analysis</td></tr></table>
 
 Team Name: Blank
 
@@ -20,4 +20,4 @@ Breakdown of Tasks:
   * Nene - Data Formatting
   * Chloe - Presentation Creation
   
-  * Presentation - We will all discuss our portion of the project with the class.
+  * Presentation - We will each present our portion of the project with the class.
