@@ -21,4 +21,10 @@ Breakdown of Tasks:
   * Nene - Data Formatting / Analysis
   * Chloe - Final Analysis - Bigger Picture
   
-  * Presentation - We will each present our portion of the project with the class.
+  * Presentation - We will each present our portion of the project with the class
+    * Talking Points
+      * What was your role
+      * Walk through solution
+      * Talk about sticking points and work around
+      * Brief analysis
+
