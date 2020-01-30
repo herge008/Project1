@@ -18,12 +18,33 @@ and open the template in the editor.
 @charset "utf-8";
 /* CSS Document */
 
-body {
-        /*background-image: url(images/backgrounds/b31.png);
-	background-repeat: repeat;
-	line-height: 1;*/
-	color: #344E98;
-	font-family: helvetica, arial, sans-serif;
+body, html {
+    background-image: url(images/backgrounds/b31.png);
+	background-repeat: no-repeat;
+	line-height: 1;
+	color: whitesmoke;
+	font-family: cursive;
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+
+
+#bgimage { position:fixed; 
+	left:0; 
+	top:0; 
+	z-index:1; 
+	height:100%;
+	width:100%; 
+}
+
+#content { position: absolute; 
+	left:0; 
+	top:0; 
+	z-index:70; 
+	height:100%; 
+	width:100%; 
 }
 
 table, tr, td, iframe {
@@ -47,7 +68,7 @@ hr {
 }
 
 @font-face {
-	font-family: 'CustomFont';
+	font-family: cursive;
     src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
     src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
@@ -92,12 +113,12 @@ hr {
 
 h1 {
         color: #344E98;
-        font-size: 26px;
+        font-size: 3vh;
  }
 
 p {
         color: #344E98;
-        font-size: 18px;
+        font-size: 2vh;
  }
     
 * {
@@ -113,18 +134,18 @@ ul {
 ul li {
 	float: left;
 	list-style: none;
-	margin-right: 1em;
-	font-family: 'CustomFont', helvetica, arial, sans-serif;
-	font-size: 18px;
-	padding: 5px; 
+	margin-right: 1vh;
+	font-family: cursive;
+	font-size: 3vh;
+	padding: 3vh;
 }
  
 li a {
-	color: whitesmoke;
+	color: azure;
 	text-decoration: none;
 	float: left;
-	font-size: 18px;
-	padding: 5px;
+	font-size: 3vh;
+	padding: 3vh;
 }
 
 11 a:hover {
@@ -132,13 +153,13 @@ li a {
 }
 
 .all a:hover {
-	color: whitesmoke;
+	color: azure;
 	-webkit-transition:All .25s ease-in-out;
 	-moz-transition:All .25s ease-in-out;
 	-o-transition:All .25s ease-in-out;
-	-webkit-transform: rotate(0deg) scale(1.5);
-	-moz-transform: rotate(0deg) scale(1.5);
-	-o-transform: rotate(0deg) scale(1.5);
+	-webkit-transform: rotate(0deg) scale(2);
+	-moz-transform: rotate(0deg) scale(2);
+	-o-transform: rotate(0deg) scale(2);
 }
 
 	nav ul ul {
@@ -151,7 +172,7 @@ li a {
 			border-bottom: 1px solid #ffffff; position: relative;
 		}
 			nav ul ul li a {
-				padding: 4px 4px;
+				padding: 1vh 1vh;
 				color: #fff;
 				width: auto;
 			}	
