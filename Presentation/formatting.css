@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2018, 12:05:08 PM
+    Author     : p_patin
+    Color Reference:
+        DarkBlue =      #344E98
+        LightBlue =     #25AAE2
+        Green =         #009900
+        Yellow =        #FFD203
+        Orange =        #009900
+        Red =           #EF3E36
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+        /*background-image: url(images/backgrounds/b31.png);
+	background-repeat: repeat;
+	line-height: 1;*/
+	color: #344E98;
+	font-family: helvetica, arial, sans-serif;
+}
+
+table, tr, td, iframe {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	border: none;	
+}
+
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #344E98; /* old IE */
+    background-color: #344E98; /* Modern Browsers */
+}
+
+@font-face {
+	font-family: 'CustomFont';
+    src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
+}
+ /*
+ src: local('‚ò∫'), url('fonts/YEWBN___.ttf') format('truetype');
+ src: local('‚ò∫'), url('fonts/RifficFree-Bold.ttf') format('truetype');
+ src: local('‚ò∫'), url('fonts/helsinki.ttf') format('truetype');
+ */
+ 
+ /*
+ the original code here:
+ @font-face {
+	font-family: 'KulminoituvaRegular';
+	src: url('kulminoituva-webfont.eot');
+	src: local('‚ò∫'), url('kulminoituva-webfont.woff') format('woff'), url('kulminoituva-webfont.ttf') format('truetype'), url('kulminoituva-webfont.svg#webfontHNAi9IoX') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ */
+ 
+ /*
+@font-face {
+    font-family: 'nexa_rust_slabblack_shadow_01';
+    src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url(fonts/'NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url(fonts/'NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ */
+
+h1 {
+        color: #344E98;
+        font-size: 26px;
+ }
+
+p {
+        color: #344E98;
+        font-size: 18px;
+ }
+    
+* {
+	padding: 0;
+	margin: 0;	
+}
+
+ul {
+	display: inline-block;
+    list-style-type: none;	
+}
+
+ul li {
+	float: left;
+	list-style: none;
+	margin-right: 1em;
+	font-family: 'CustomFont', helvetica, arial, sans-serif;
+	font-size: 18px;
+	padding: 5px; 
+}
+ 
+li a {
+	color: whitesmoke;
+	text-decoration: none;
+	float: left;
+	font-size: 18px;
+	padding: 5px;
+}
+
+11 a:hover {
+	color: #;
+}
+
+.all a:hover {
+	color: whitesmoke;
+	-webkit-transition:All .25s ease-in-out;
+	-moz-transition:All .25s ease-in-out;
+	-o-transition:All .25s ease-in-out;
+	-webkit-transform: rotate(0deg) scale(1.5);
+	-moz-transform: rotate(0deg) scale(1.5);
+	-o-transform: rotate(0deg) scale(1.5);
+}
+
+	nav ul ul {
+		background: #344E98; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+		nav ul ul li {
+			float: none; 
+			border-top: 1px solid #ffffff;
+			border-bottom: 1px solid #ffffff; position: relative;
+		}
+			nav ul ul li a {
+				padding: 4px 4px;
+				color: #fff;
+				width: auto;
+			}	
+				nav ul ul li a:hover {
+					background: #344E98;
+				}
+
+
+ /*
+.right img:hover {
+	-webkit-transition:All .5s ease-in-out;
+	-moz-transition:All .5s ease-in-out;
+	-o-transition:All .5s ease-in-out;
+	-webkit-transform: rotate(10deg) scale(1.2);
+	-moz-transform: rotate(10deg) scale(1.2);
+	-o-transform: rotate(10deg) scale(1.2);
+}
+*/
