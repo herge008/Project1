@@ -1,5 +1,6 @@
 # API Key Files
 api_keys.py
+.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
