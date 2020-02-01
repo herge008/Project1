@@ -22,12 +22,15 @@ body, html {
     background-image: url(images/backgrounds/b31.png);
 	background-repeat: no-repeat;
 	line-height: 1;
-	color: whitesmoke;
 	font-family: cursive;
 	margin:0;
 	padding:0;
 	height:100%;
 	width:100%;
+}
+
+span {
+	color: #980400;
 }
 
 
@@ -137,7 +140,8 @@ ul li {
 	margin-right: 1vh;
 	font-family: cursive;
 	font-size: 3vh;
-	padding: 3vh;
+	padding: 1vh;
+	vertical-align: bottom;
 }
  
 li a {
@@ -145,7 +149,8 @@ li a {
 	text-decoration: none;
 	float: left;
 	font-size: 3vh;
-	padding: 3vh;
+	padding: 1vh;
+	vertical-align: bottom;
 }
 
 11 a:hover {
@@ -157,9 +162,9 @@ li a {
 	-webkit-transition:All .25s ease-in-out;
 	-moz-transition:All .25s ease-in-out;
 	-o-transition:All .25s ease-in-out;
-	-webkit-transform: rotate(0deg) scale(2);
-	-moz-transform: rotate(0deg) scale(2);
-	-o-transform: rotate(0deg) scale(2);
+	-webkit-transform: rotate(0deg) scale(1.5);
+	-moz-transform: rotate(0deg) scale(1.5);
+	-o-transform: rotate(0deg) scale(1.5);
 }
 
 	nav ul ul {
