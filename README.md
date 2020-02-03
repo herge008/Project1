@@ -5,8 +5,8 @@ Team Name: Blank
 Kind of Data: Movie Data
 
 Kinds of Questions:
+  * Has movie revenue changed significantly throughout the years?
   * What is the best month for the best movies?
-  * What is the best month for each genre?
   * What is the best month for each movie by moving rating (R, PG, PG-13 etc)?
   * Are longer running movies rated higher or lower on average?
 
