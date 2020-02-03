@@ -13,12 +13,12 @@ Kinds of Questions:
 Data Sources: TMDB & OMDB
 
 Breakdown of Tasks:
-  * Patrick H. - Git Repository Admin
-  * Patrick P. -  Presentation (HTML) / Analysis
-  * Deshaune - Data Wrangler / Analysis
-  * Efe - Data Plotting / Analysis
-  * Nene - Data Formatting / Analysis
-  * Chloe - Final Analysis - Bigger Picture
+  * Patrick H. - Git Repository Admin / Budget vs. Revenue Analysis
+  * Patrick P. -  Presentation (HTML) / Movie Review vs Revenue Analysis
+  * Deshaune - Data Wrangler / Annual Revenue Analysis
+  * Efe - Analysis / Month & Day of Release vs. Revenue
+  * Nene - Analysis
+  * Chloe - Analysis / Movie Runtime vs. Revenue
   
   * Presentation - We will each present our portion of the project with the class
     * Talking Points
