@@ -5,9 +5,9 @@ Team Name: Blank
 Kind of Data: Movie Data
 
 Kinds of Questions:
+  * Is there such a thing as a Summer blockbuster?
   * Has movie revenue changed significantly throughout the years?
   * Is there a strong correlation between a movies reviews and its revenue?
-  * What is the best month for the best movies?
   * What is the best month for each movie by moving rating (R, PG, PG-13 etc)?
   * Are longer running movies rated higher or lower on average?
 
