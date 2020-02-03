@@ -10,7 +10,7 @@ Kinds of Questions:
   * Is there a strong correlation between a movies reviews and its revenue?
   * Are longer running movies rated higher or lower on average?
 
-Possible Data Sources: OMDB
+Data Sources: TMDB & OMDB
 
 Breakdown of Tasks:
   * Patrick H. - Git Repository Admin
