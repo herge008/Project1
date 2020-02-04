@@ -34,6 +34,8 @@ span {
 }
 
 
+
+
 #bgimage { position:fixed; 
 	left:0; 
 	top:0; 
@@ -43,8 +45,6 @@ span {
 }
 
 #content { position: absolute; 
-	left:0; 
-	top:0; 
 	z-index:70; 
 	height:100%; 
 	width:100%; 
@@ -131,7 +131,7 @@ p {
 
 ul {
 	display: inline-block;
-    list-style-type: none;	
+    list-style-type: none;
 }
 
 ul li {
@@ -170,6 +170,7 @@ li a {
 	nav ul ul {
 		background: #344E98; border-radius: 0px; padding: 0;
 		position: absolute; top: 100%;
+		
 	}
 		nav ul ul li {
 			float: none; 
