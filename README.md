@@ -5,20 +5,21 @@ Team Name: Blank
 Kind of Data: Movie Data
 
 Kinds of Questions:
-  * What is the best month for the best movies?
-  * What is the best month for each genre?
-  * What is the best month for each movie by moving rating (R, PG, PG-13 etc)?
-  * Are longer running movies rated higher or lower on average?
+  * Is there such a thing as a Summer blockbuster?
+  * Has movie revenue changed significantly throughout the years?
+  * Is there a strong correlation between a movies reviews and its revenue?
+  * Do longer running movies generate higher Revenue? And, do they receive higher IMDB Ratings?
+  * Which movie genres are the most popular?
 
-Possible Data Sources: OMDB
+Data Sources: TMDB & OMDB
 
 Breakdown of Tasks:
-  * Patrick H. - Git Repository Admin
-  * Patrick P. -  Presentation (HTML) / Analysis
-  * Deshaune - Data Wrangler / Analysis
-  * Efe - Data Plotting / Analysis
-  * Nene - Data Formatting / Analysis
-  * Chloe - Final Analysis - Bigger Picture
+  * Patrick H. - Git Repository Admin / Budget vs. Revenue Analysis
+  * Patrick P. -  Presentation (HTML) / Movie Review vs Revenue Analysis
+  * Deshaune - Data Wrangler / Annual Revenue Analysis
+  * Efe - Analysis / Month & Day of Release vs. Revenue
+  * Nene - Analysis
+  * Chloe - Analysis / Movie Runtime vs. Revenue
   
   * Presentation - We will each present our portion of the project with the class
     * Talking Points
