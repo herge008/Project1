@@ -1,0 +1,249 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2018, 12:05:08 PM
+    Author     : p_patin
+    Color Reference:
+        DarkBlue =      #344E98
+        LightBlue =     #25AAE2
+        Green =         #009900
+        Yellow =        #FFD203
+        Orange =        #009900
+        Red =           #EF3E36
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+body,
+html {
+  background-image: url(images/backgrounds/b31.png);
+  background-repeat: no-repeat;
+  line-height: 1;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+span {
+  color: #980400;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+/* DESHAUNE ADDITIONS */
+span img {
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px black;
+  box-sizing: border-box;
+}
+#content {
+  margin-bottom: 20px;
+}
+.chart {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px black;
+  box-sizing: border-box;
+}
+#nav-container {
+  width: 100%;
+  background-color: #f2f2f2;
+  position: fixed;
+  box-shadow: 1px 1px 2px black;
+}
+#nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+#nav img {
+  height: 40px;
+}
+/* #nav .active {
+  background-color: black;
+} */
+#content-container {
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+/* END */
+
+#bgimage {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+#content {
+  position: absolute;
+  z-index: 70;
+  height: 100%;
+  width: 100%;
+}
+
+table,
+tr,
+td,
+iframe {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  color: #344e98; /* old IE */
+  background-color: #344e98; /* Modern Browsers */
+}
+
+@font-face {
+  font-family: cursive;
+  src: url("fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot");
+  src: url("fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2") format("woff2"),
+    url("fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff") format("woff"),
+    url("fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf") format("truetype"),
+    url("fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ src: local('‚ò∫'), url('fonts/YEWBN___.ttf') format('truetype');
+ src: local('‚ò∫'), url('fonts/RifficFree-Bold.ttf') format('truetype');
+ src: local('‚ò∫'), url('fonts/helsinki.ttf') format('truetype');
+ */
+
+/*
+ the original code here:
+ @font-face {
+	font-family: 'KulminoituvaRegular';
+	src: url('kulminoituva-webfont.eot');
+	src: local('‚ò∫'), url('kulminoituva-webfont.woff') format('woff'), url('kulminoituva-webfont.ttf') format('truetype'), url('kulminoituva-webfont.svg#webfontHNAi9IoX') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ */
+
+/*
+@font-face {
+    font-family: 'nexa_rust_slabblack_shadow_01';
+    src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url(fonts/'NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url(fonts/'NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ */
+
+h1 {
+  color: #344e98;
+  font-size: 3vh;
+}
+
+p {
+  color: #344e98;
+  font-size: 2vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+  margin-right: 1vh;
+  font-family: cursive;
+  font-size: 3vh;
+  padding: 1vh;
+  vertical-align: bottom;
+}
+
+li a {
+  color: azure;
+  text-decoration: none;
+  float: left;
+  font-size: 3vh;
+  padding: 1vh;
+  vertical-align: bottom;
+}
+
+11 a:hover {
+  color: #;
+}
+
+.all a:hover {
+  color: azure;
+  -webkit-transition: All 0.25s ease-in-out;
+  -moz-transition: All 0.25s ease-in-out;
+  -o-transition: All 0.25s ease-in-out;
+  -webkit-transform: rotate(0deg) scale(1.5);
+  -moz-transform: rotate(0deg) scale(1.5);
+  -o-transform: rotate(0deg) scale(1.5);
+}
+
+nav ul ul {
+  background: #344e98;
+  border-radius: 0px;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+}
+nav ul ul li {
+  float: none;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+}
+nav ul ul li a {
+  padding: 1vh 1vh;
+  color: #fff;
+  width: auto;
+}
+nav ul ul li a:hover {
+  background: #344e98;
+}
+
+/*
+.right img:hover {
+	-webkit-transition:All .5s ease-in-out;
+	-moz-transition:All .5s ease-in-out;
+	-o-transition:All .5s ease-in-out;
+	-webkit-transform: rotate(10deg) scale(1.2);
+	-moz-transform: rotate(10deg) scale(1.2);
+	-o-transform: rotate(10deg) scale(1.2);
+}
+*/

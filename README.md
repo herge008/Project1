@@ -5,12 +5,15 @@ Team Name: Blank
 Kind of Data: Movie Data
 
 Kinds of Questions:
+
+=======
   1. Which movie genres are the most popular?
   2. Has movie revenue changed throughout the years?
   3. Is there a correlation between reviews and revenue?
   4. Do longer running movies generate higher Revenue?
   5. And, do they receive higher IMDB Ratings?
   6. Are the best movies released over the Summer?
+
 
 Data Sources: TMDB & OMDB
 
