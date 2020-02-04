@@ -8,7 +8,7 @@ Kinds of Questions:
   * Is there such a thing as a Summer blockbuster?
   * Has movie revenue changed significantly throughout the years?
   * Is there a strong correlation between a movies reviews and its revenue?
-  * Are longer running movies rated higher or lower on average?
+  * Do longer running movies generate higher Revenue? And, do they receive higher IMDB Ratings?
 
 Data Sources: TMDB & OMDB
 
