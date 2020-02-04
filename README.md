@@ -9,6 +9,7 @@ Kinds of Questions:
   * Has movie revenue changed significantly throughout the years?
   * Is there a strong correlation between a movies reviews and its revenue?
   * Do longer running movies generate higher Revenue? And, do they receive higher IMDB Ratings?
+  * Which movie genres are the most popular?
 
 Data Sources: TMDB & OMDB
 
