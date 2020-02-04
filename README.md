@@ -6,7 +6,6 @@ Kind of Data: Movie Data
 
 Kinds of Questions:
   * What is the best month for the best movies?
-    * Determined by movie score and opening box office sales.
   * What is the best month for each genre?
   * What is the best month for each movie by moving rating (R, PG, PG-13 etc)?
   * Are longer running movies rated higher or lower on average?
