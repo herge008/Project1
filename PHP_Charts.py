@@ -1406,7 +1406,6 @@
     "    plt.xlabel(x_label)\n",
     "    plt.ylabel(y_label)\n",
     "    ax.set_xlim(0, 10)\n",
-    "#     ax.set_ylim(y_min, y_max)\n",
     "    ax.grid(True)\n",
     "    plt.title(title)\n",
     "    \n",
@@ -1442,8 +1441,8 @@
     "    plt.show()\n",
     "\n",
     "    # Save our figure\n",
-    "#     save_file = os.path.join(\"..\", \"Images\", \"\")\n",
-    "#     fig.savefig(save_file)\n",
+    "    save_file = os.path.join(\"..\", \"Images\", \"Rev_v_IMDBRating.png\")\n",
+    "    fig.savefig(save_file)\n",
     "# end def"
    ]
   },
@@ -1477,8 +1476,7 @@
     "# Call our function to plot the regression chart\n",
     "PlotLinearRegression(df_IMDB[\"IMDB Rating\"], df_IMDB[\"Revenue (Millions)\"], \n",
     "                     \"IMDB  Viewer Score (0 - 10)\", \"Movie Revenue (Millions USD)\", df_IMDB[\"Color\"], -0.5, 3.5, \n",
-    "                     \"IMDB Viewer Score v. Revenue\", \"IMDBViewerScorevRevenue.png\")\n",
-    "# df_IMDB_clean.head(100)"
+    "                     \"IMDB Viewer Score v. Revenue\", \"IMDBViewerScorevRevenue.png\")"
    ]
   },
   {
