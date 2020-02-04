@@ -10,6 +10,7 @@ Kinds of Questions:
   * What is the best month for each genre?
   * What is the best month for each movie by moving rating (R, PG, PG-13 etc)?
   * Are longer running movies rated higher or lower on average?
+  * Does a higher Budget for a movie translate to more money in Revenue?
 
 Possible Data Sources: OMDB
 
